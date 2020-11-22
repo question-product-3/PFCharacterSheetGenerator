@@ -1,0 +1,26 @@
+
+iframe{
+  display: block;
+  width: 100%;
+  height: 30rem;
+
+}
+div.Character{
+  width: 48%;
+  display: table-cell;
+}
+div.scrol{
+  overflow-y: scroll;
+  resize: horizontal;
+ height: 100vh;
+}
+td.typeColumn{
+  width: 2rem;
+}
+td.nameColumn{
+  white-space: nowrap;
+}
+body{
+  display: table;
+}
+html, body { height: 100vh; }
