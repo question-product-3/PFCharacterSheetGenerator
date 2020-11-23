@@ -1,3 +1,71 @@
+html, body { height: 100vh; }
+
+body{
+  display: table;
+}
+
+div.Character{
+  width: 48%;
+  display: table-cell;
+}
+
+div.scrol{
+  overflow-y: scroll;
+  resize: horizontal;
+  height: 100vh;
+}
+
+
+section>p{
+  margin: 0.3rem 0.3rem 0.3rem 0.3rem ;
+}
+h1{
+  font-weight:bold;
+  background-color: black;
+  color: white;
+  letter-spacing: 0.1rem;
+  margin: 0.5rem 0 0.5rem 0;
+  padding: 0.2rem 0 0.2rem 0.5rem;
+  font-size: 1.5rem;
+}
+h2{
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  margin: 0.8rem 0;
+  padding: 0.15rem 0 0 0.2rem;
+  font-size: 1rem;
+  font-weight: bolder;
+}
+
+table *{
+  padding: 0.2rem 0.5rem 0.2rem 0.5rem ;
+}
+th{
+  text-align: center;
+  background: #3f3f3f;
+  color: #ffffff;
+}
+th.typeColumn{
+  width: 2rem;
+}
+tbody tr:nth-child(odd){
+  background-color: #eee
+}
+tbody tr:hover{
+  background:  #acf2ac !important;      
+}
+
+td.nameColumn{
+  white-space: nowrap;
+}
+
+
+b{
+  margin-left: 0.2rem;
+}
+b::after{
+  content: ":";
+}
 
 iframe{
   display: block;
@@ -5,22 +73,3 @@ iframe{
   height: 30rem;
 
 }
-div.Character{
-  width: 48%;
-  display: table-cell;
-}
-div.scrol{
-  overflow-y: scroll;
-  resize: horizontal;
- height: 100vh;
-}
-td.typeColumn{
-  width: 2rem;
-}
-td.nameColumn{
-  white-space: nowrap;
-}
-body{
-  display: table;
-}
-html, body { height: 100vh; }
