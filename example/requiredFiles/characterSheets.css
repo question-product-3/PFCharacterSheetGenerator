@@ -8,14 +8,11 @@ div.Character{
   width: 48%;
   display: table-cell;
 }
-
 div.scrol{
   overflow-y: scroll;
   resize: horizontal;
   height: 100vh;
 }
-
-
 section>p{
   margin: 0.3rem 0.3rem 0.3rem 0.3rem ;
   margin-left: 0.2rem;
@@ -59,14 +56,12 @@ tbody tr:nth-child(odd){
   background-color: #eee
 }
 tbody tr:hover{
-  background:  #acf2ac !important;      
+  background:  #acf2ac !important;
 }
 
 td.nameColumn{
   white-space: nowrap;
 }
-
-
 iframe{
   display: block;
   width: 100%;
