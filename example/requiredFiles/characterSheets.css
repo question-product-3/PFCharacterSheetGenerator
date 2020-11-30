@@ -13,6 +13,12 @@ div.scrol{
   resize: horizontal;
   height: 100vh;
 }
+div.button{
+  background-color: brown;
+}
+div.button:hover{
+  cursor: pointer;
+}
 section>p{
   margin: 0.3rem 0.3rem 0.3rem 0.3rem ;
   margin-left: 0.2rem;
