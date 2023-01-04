@@ -30,12 +30,19 @@ div.button:hover{
   cursor: pointer;
 }
 div.button:active{
-  
+
   margin-bottom: 0.5rem;
   color: #eee;
   background: rgb(22, 65, 88);
   transform: translateY(0.3rem);/*下に動く*/
   border-bottom: none;/*線を消す*/
+}
+div.spellList{
+  margin: 1rem 1rem 1rem 2rem;
+}
+div.spellList>p{
+  margin: 0.3rem 0.3rem 0.3rem 0.3rem ;
+  margin-left: 0.2rem;
 }
 section>p{
   margin: 0.3rem 0.3rem 0.3rem 0.3rem ;
