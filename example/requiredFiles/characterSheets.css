@@ -125,7 +125,8 @@ input[type="number"]{
 }
 
 blockquote{
-  padding-left: 1rem;
+  padding-inline-start: 1rem;
+  padding-block: 1rem;
   font-style: normal;
   padding: 0;
   margin: 0;
@@ -133,8 +134,4 @@ blockquote{
   color: #532;
   border-top: #cba solid 0.1rem;
   border-bottom: #cba solid 0.1rem;
-}
-blockquote div{
-  padding-inline-start: 1rem;
-  padding-inline-end: 1rem;
 }
