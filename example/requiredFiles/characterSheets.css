@@ -5,6 +5,9 @@ html, body { height: 100vh; }
 body{
   display: table;
 }
+div{
+  box-sizing: border-box;
+}
 
 div.Character{
   width: 48%;
@@ -130,4 +133,8 @@ blockquote{
   color: #532;
   border-top: #cba solid 0.1rem;
   border-bottom: #cba solid 0.1rem;
+}
+blockquote div{
+  padding-inline-start: 1rem;
+  padding-inline-end: 1rem;
 }
