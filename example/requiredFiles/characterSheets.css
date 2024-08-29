@@ -123,7 +123,12 @@ input{
 input[type="number"]{
   width: 2rem;
 }
-
+a+a{
+  padding-left:0;
+}
+a:has(+a){
+  padding-right:0;
+}
 blockquote{
   padding-inline-start: 1rem;
   padding-block: 1rem;
